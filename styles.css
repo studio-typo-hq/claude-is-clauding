@@ -511,3 +511,8 @@ footer {
   user-select: none;
   -webkit-user-select: none;
 }
+
+/* Studio.Typo widget - hide on mobile to avoid overlap with footer text */
+@media (max-width: 480px) {
+  .st-badge { display: none; }
+}
